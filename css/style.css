@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Muli", sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.nav-bar {
+    height: 100%;
+    position: fixed;
+    width: 30%;
+    padding: 1em;
+    margin-left: 0;
+    margin-top: 0;
+    overflow-y: scroll;
+}
+
+@media (max-width: 600px) {
+    .nav-bar {
+        display: none;
+    }
+    .main {
+        width: 100%;
+    }
+}
+
+.main {
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    left: 35%;
+    padding: 1em;
+    margin-left: 1em;
+    margin-top: 0;
+}
+
+
+/*
+div {
+    border-color: red;
+    border-style: solid;
+    background-color: aquamarine;
+}
+*/
+
+header {
+    font-size: x-large;
+    margin: 0.5em;
+}
+
+#title {
+    font-size: xx-large;
+}
+
+hr {
+    margin: 2em;
+}
+
+li.menu {
+    font-size: larger;
+    margin: 1em;
+    padding: auto;
+}
+
+li {
+    margin-left: 3em;
+}
+
+article {
+    margin: 2em;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    font-style: italic;
+    display: flex;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: black;
+}
+
+p,
+h3,
+h4 {
+    padding: 1em;
+}
+
+details {
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.code {
+    background-color: rgba(128, 128, 128, 0.194);
+    padding: 1em;
+    margin: 1em;
+    font-family: monospace;
+    overflow-x: scroll;
+}

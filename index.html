@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Build a Technical Documentation Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <nav id="navbar">
+                <header id="title" class="center">SOLACE</header>
+                <hr />
+                <ul>
+                    <li class="menu">
+                        <a class="nav-link" href="#What_is_Solace_PubSubPlus_Platform">What is Solace PubSubPlus Platform</a
+              >
+            </li>
+
+            <li class="menu">
+              <a class="nav-link" href="#PubSubPlus_Cloud_Console"
+                >PubSubPlus Cloud Console</a
+              >
+            </li>
+            <li class="menu">
+              <a class="nav-link" href="#PubSubPlus_Event_Broker"
+                >PubSubPlus Event Broker</a
+              >
+            </li>
+            <li class="menu">
+              <a
+                class="nav-link"
+                href="#PubSubPlus_Streaming_APIs_and_Integrations"
+                >PubSubPlus Streaming APIs and Integrations</a
+              >
+            </li>
+            <li class="menu">
+              <a class="nav-link" href="#PubSubPlus_Platform_Security"
+                >PubSubPlus Platform Security</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main">
+        <main id="main-doc">
+          <section class="main-section" id="What_is_Solace_PubSubPlus_Platform">
+            <header>What is Solace PubSubPlus Platform</header>
+            <article>
+              <p>
+                A complete event streaming and management platform for the
+                real-time enterprise. The PubSub+ Platform helps enterprises
+                design, deploy, and manage event-driven architectures (EDAs)
+                across hybrid cloud, multi-cloud, and IoT environments, so they
+                can be more integrated and event-driven.
+              </p>
+
+              <br />
+              <div class="center">
+                <img
+                  src="https://docs.solace.com/Resources/Images/Platform-V2-diagram-16x9-light.png"
+                  alt="pubsub-platform"
+                  width="70%"
+                />
+              </div>
+            </article>
+            <hr />
+          </section>
+
+          <section class="main-section" id="PubSubPlus_Cloud_Console">
+            <header>PubSubPlus Cloud Console</header>
+            <p>
+              The PubSub+ Cloud Console is the "single pane of glass" that gives
+              you access to the PubSub+ Platform—a complete event streaming and
+              management platform.<br /><br />
+
+              From one console, you can:
+            </p>
+
+            <ul>
+              <li>
+                Deploy and link brokers to form a global, dynamically-routed
+                event mesh
+              </li>
+              <li>Monitor event mesh performance</li>
+              <li>Define, manage and govern events</li>
+            </ul>
+            <h3>Event Streaming</h3>
+
+            <p>
+              PubSub+ Mission Control gives you access to event broker services
+              that give you all the messaging features you need, while Solace
+              takes care of deploying and operating your service. We engineer it
+              all to be secure, resilient, and cost-optimized so you can focus
+              on building applications and your EDA. In addition to this, you
+              can manage your event broker services whether they are located in
+              the cloud or on-premises, easily visualize and design event
+              meshes, securely centralize the management of your EDA, and easily
+              scale to drive your EDA forward.
+            </p>
+
+            <h3>Event Insights</h3>
+
+            <p>
+              With PubSub+ Insights, we do the work to provide curated
+              dashboards, easy-to-understand visualizations based on historical
+              and real-time metrics, and timely notifications about your event
+              broker services. Advanced monitoring helps you to better manage
+              your services as your EDA scales, and an integrated email
+              framework alerts you when key metrics fall outside of your
+              established thresholds.
+            </p>
+
+            <h3>Event Management</h3>
+
+            <p>
+              PubSub+ Event Portal provides event management services that give
+              you the power to create, design, share, and manage your events
+              whether they come from PubSub+ Platform event brokers or other
+              streaming technologies (e.g., Kafka). The Event Portal offers
+              runtime discovery and cataloging of events, schemas, and
+              application interactions. You can easily generate code and
+              documentation, validate events, and apply API management policies
+              for applications in your EDA.
+            </p>
+            <hr />
+          </section>
+          <section class="main-section" id="PubSubPlus_Event_Broker">
+            <header>PubSubPlus Event Broker</header>
+            <p>
+              PubSub+ event brokers power an event mesh, a modern messaging
+              layer that can be deployed across every environment and component
+              of the distributed enterprise, to stream events across them all.
+            </p>
+            <h3>PubSub+ Event Broker: Software</h3>
+
+            <p>
+              PubSub+ Event Broker: Software is easy to deploy in your favorite
+              clouds, containers, and iPaaS/PaaS environments. And there's a
+              free production-ready edition. See more about the Editions of
+              PubSub+ Event Broker: Software.
+            </p>
+            <h3>PubSub+ Event Broker: Appliance</h3>
+
+            <p>
+              Extreme performance and capacity in a compact form factor with the
+              operations and low TCO of a turnkey appliance. Watch one of our
+              Appliance Walkthrough Videos.
+            </p>
+            <h3>PubSub+ Event Broker: Cloud</h3>
+
+            <p>
+              A managed service that taps the power of PubSub+ in minutes,
+              leaving the operation of your messaging infrastructure to us.
+            </p>
+            <hr />
+          </section>
+          <section
+            class="main-section"
+            id="PubSubPlus_Streaming_APIs_and_Integrations"
+          >
+            <header>PubSubPlus Streaming APIs and Integrations</header>
+            <p>
+              Each messaging API has online documentation and samples for
+              application developers to reference. There are also Get Started
+              tutorials that you can find at the Developer Tutorials.
+            </p>
+
+            <p>
+              For the Node.js API and JavaScript API, all the sample code can be
+              found on solace-samples-nodejs and solace-samples-javascript
+              GitHub pages.
+            </p>
+
+            <p>
+              For the JCSMP, Java RTO, C and .NET APIs, the samples are
+              available by extracting the the corresponding distribution
+              package:
+            </p>
+            <ul>
+              <li>
+                When using the JCSMP or Java RTO APIs, follow the build
+                instructions in the README file found in the samples directory.
+              </li>
+              <li>
+                When using the C or .NET APIs, follow the build instructions in
+                the README file found in the ex directory.
+              </li>
+              <li>
+                Once a sample is successfully built, it can be run. In the
+                following sub-sections, when the bolded command is entered, the
+                sample is run, and the subsequent output should be displayed.
+              </li>
+            </ul>
+            <br />
+
+            <h3>Successful JCSMP Sample Build</h3>
+            <details>
+              <summary>Click to see code</summary>
+              <span>
+                <div class="code">
+                  <code>
+                    <pre>
+                run.sh introsamples.DirectPubSub &#60;enter&#62;
+
+                Sample app DirectPubSub / JCSMP 5.x.x.x
+                ===================================================
+                
+                Common parameters:
+                    -h HOST[:PORT] Router IP address [:port, omit for default]
+                
+                    -u USER[@VPN] Authentication username [@vpn, omit for default]
+                    [-w PASSWORD] Authentication password
+                    [-z] Enable compression (SolOS-TR routers only)</pre
+                    >
+                  </code>
+                </div></span
+              >
+            </details>
+
+            <h3>Successful Java RTO API Sample Build</h3>
+            <details>
+              <summary>Click to see code</summary>
+              <span
+                ><div class="code">
+                  <code>
+                    <pre>
+                        run.sh samples.DirectPubSub &#60;enter&#62;
+	
+                        Common parameters:
+                              -h HOST[:PORT]   Appliance IP address [:port, omit for default]
+                              -u USER[@VPN]    Authentication username [@vpn, omit for default]
+                              [-w PASSWORD]    Authentication password
+                              [-z]             Enable compression
+                              [-x AUTH_METHOD] authentication scheme (One of : BASIC, KERBEROS). (Default: BASIC). Specifying USER is mandatory when BASIC is used.
+                              [-l logLevel ]   Java Log Level to override file based configuration
+                              [-mm interval]   Monitor and record used memory at interval in seconds, prints a report at the end.</pre
+                    >
+                  </code>
+                </div></span
+              >
+            </details>
+
+            <h3>Successful C API Sample Build</h3>
+            <details>
+              <summary>Click to see code</summary>
+              <span
+                ><div class="code">
+                  <code>
+                    <pre>
+directPubSub &#60;enter&#62;
+		 
+    directPubSub.c (Copyright 2009-2017 Solace Systems, Inc. All rights reserved.)
+    Missing required parameter '--cu'
+    Missing required parameter '--cip'
+             
+    Usage: directPub PARAMETERS
+                 
+    Where PARAMETERS are: 
+        -c, --cip=ip[:port] IP and port of the client router.
+                (e.g. --			cip=192.168.160.101)
+        -u, --cu=user[@vpn] Client username and optionally VPN name. 
+                The VPN name is optional and only used in routers
+                equipped with a TRB.</pre
+                    >
+                  </code>
+                </div></span
+              >
+            </details>
+
+            <h3>Successful .NET API Sample Build</h3>
+            <details>
+              <summary>Click to see code</summary>
+              <span
+                ><div class="code">
+                  <code>
+                    <pre>SolClientSamples.exe DirectPubSub &#60;enter&#62;</pre>
+                  </code>
+                </div></span
+              >
+            </details>
+
+            <details>
+              <summary>Click to see code</summary>
+              <span
+                ><div class="code">
+                  <code>
+                    <pre>
+           SolClientSamples.exe DirectPubSub &#60;enter&#62;
+			
+                    Launching 'DirectPubSub': Direct Delivery Mode Publish and Subscribe ...
+                    Version info:
+                      .NET Solclient 5.x.x.x / 5.x.x.x built on Apr 19 2011	17:08:00
+                      (Based on 5.x.x.x / Win32_opt - C SDK built on Apr 9 2011	11:33:01)
+                    Exception: Invalid command line arguments
+                    Common parameters:
+                       -h HOST[:PORT] Router IP address [:port, omit for default]
+                       -u USER[@VPN] Authentication username [@vpn, omit for	  default]
+                       [-w PASSWORD] Authentication password
+                       [-z] Enable compression (SolOS-TR routers only)
+                     
+                    Router Capabilities:
+                       BROWSER : True
+                       COMPRESSION : True
+                       ENDPOINT_MANAGEMENT : True
+                       ENDPOINT_MESSAGE_TTL : True
+                       MAX_DIRECT_MSG_SIZE : 67108864
+                       MAX_GUARANTEED_MSG_SIZE : 10000000
+                       MESSAGE_ELIDING : False
+                       PEER_PORT_SPEED : 1000
+                       PEER_PORT_TYPE : Ethernet
+                       PEER_SOFTWARE_DATE : Nov 21 2011 15:08:15
+                       PUB_GUARANTEED : True
+                       QUEUE_SUBSCRIPTIONS : True
+                       SELECTOR : True
+                       SUB_FLOW_GUARANTEED : True
+                       SUBSCRIPTION_MANAGER : True
+                       SUPPORTS_XPE_SUBSCRIPTIONS : False
+                       TEMP_ENDPOINT : True
+                     
+                    Published message to topic a/c
+                     
+                       (*) Default session delegate: received message with Topic = Topic=[ name: a/c ,IsReceiveAllDeliverToOne: False , Temporary: False ]
+                     
+                    Published message to topic a/b
+                     
+                       Dispatch delegate for 'Topic=[ name: a/b , IsReceiveAllDeliverToOne: False , Temporary: False ]': received message with Topic = Topic=[ name: a/b , IsReceive AllDeliverToOne: False , Temporary: False ]
+                     
+                    Published message to Topic c/d
+                     
+                       Dispatch delegate for 'Topic=[ name: c/d , IsReceiveAllDeliverToOne: False , Temporary: False ]': received message with Topic = Topic=[ name: c/d , IsReceive AllDeliverToOne: False , Temporary: False ]
+                       Dispatch delegate for 'Topic=[ name: c/> , IsReceiveAllDeliverToOne: False , Temporary: False ]': received message with Topic = Topic=[ name: c/d , IsReceive AllDeliverToOne: False , Temporary: False ]
+                     
+                    Published message to Topic c/e
+                     
+                       Dispatch delegate for 'Topic=[ name: c/> , IsReceiveAllDeliverToOne: False , Temporary: False ]': received message with Topic = Topic=[ name: c/e , IsReceive AllDeliverToOne: False , Temporary: False ]
+                     
+                    Done</pre
+                    >
+                  </code>
+                </div></span
+              >
+            </details>
+
+            <hr />
+          </section>
+
+          <section class="main-section" id="PubSubPlus_Platform_Security">
+            <header>PubSubPlus Platform Security</header>
+            <p>
+              PubSub+ Platform enables messaging architectures that deliver
+              consistent multi-protocol client authentication and authorization
+              security across the enterprise, deeply integrated with enterprise
+              authentication services using a minimal set of components.
+            </p>
+            <br />
+
+            <p>
+              To learn more, see the
+              <a href="https://docs.solace.com/Security/Security-Solace.htm"
+                >Security Overview.</a
+              >
+            </p>
+            <hr />
+          </section>
+        </main>
+
+        <div class="footer">
+          <p>
+            Documentation Set: 2022.03.31.0001 Last Updated: March 31, 2022
+            Copyright © Solace Corporation
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
